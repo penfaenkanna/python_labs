@@ -24,8 +24,7 @@ print('Привет, ', name, '! ','Через год тебе будет ', age
 ``` python
 a = float(input('a: ').replace(',', '.'))
 b = float(input('b: ').replace(',', '.'))
-avg = (a+b)/2
-print('sum=', round(a+b, 2), '; ', 'avg=', round(avg, 2), sep='')
+print(f'sum={a+b:.2f}; avg={(a+b)/2:.2f}')
 ```
 ![](images/lab01/img02.png)
 
