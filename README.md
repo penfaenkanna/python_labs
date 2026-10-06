@@ -5,7 +5,7 @@
 
 ### Задание 1
 Входные данные: имя (строка), возраст (целое).
-```
+``` python
 name = input("Имя: ")
 age = int(input('Возраст: '))
 print('Привет, ', name, '! ','Через год тебе будет ', age+1, '.', sep='')
@@ -21,7 +21,7 @@ print('Привет, ', name, '! ','Через год тебе будет ', age
 
 ### Задание 2
 Входные данные: два числа (вещественные), допускаются точка или запятая.
-```
+``` python
 a = float(input('a: ').replace(',', '.'))
 b = float(input('b: ').replace(',', '.'))
 avg = (a+b)/2
@@ -38,7 +38,7 @@ print('sum=', round(a+b, 2), '; ', 'avg=', round(avg, 2), sep='')
 
 ### Задание 3
 Входные данные: price (₽), discount (%), vat (%) — вещественные.
-```
+``` python
 price = float(input('price = ').replace(',','.'))
 discount = float(input('discount = ').replace(',','.'))
 vat = float(input('vat = ').replace(',','.'))
@@ -62,7 +62,7 @@ print(f'Итого к оплате:    {total:.2f} ₽')
 
 ### Задание 4
 Входные данные: m — целые минуты.
-```
+``` python
 m = int(input('Минуты: '))
 print(f'{m//60}:{m%60:02d}')
 ```
@@ -77,7 +77,7 @@ print(f'{m//60}:{m%60:02d}')
 
 ### Задание 5
 Входные данные: ФИО одной строкой (могут быть лишние пробелы).
-```
+``` python
 name = input('ФИО: ').split()
 print('Инициалы: ', name[0][0],name[1][0],name[2][0],'.', sep='')
 print('Длина (символов):',len(name[0])+len(name[1])+len(name[2])+2)
