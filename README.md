@@ -21,7 +21,7 @@ b = float(input('b: ').replace(',', '.'))
 avg = (a+b)/2
 print('sum=', round(a+b, 2), '; ', 'avg=', round(avg, 2), sep='')
 ```
-![](images/lab01/im02.png)
+![](images/lab01/img02.png)
 
 
 ### Задание 3
@@ -39,7 +39,7 @@ print(f'База после скидки: {base:.2f} ₽')
 print(f'НДС:               {vat_amount:.2f} ₽')
 print(f'Итого к оплате:    {total:.2f} ₽')
 ```
-![](images/lab01/im03.png)
+![](images/lab01/img03.png)
 
 
 ### Задание 4
@@ -48,7 +48,7 @@ print(f'Итого к оплате:    {total:.2f} ₽')
 m = int(input('Минуты: '))
 print(f'{m//60}:{m%60:02d}')
 ```
-![](images/lab01/im04.png)
+![](images/lab01/img04.png)
 
 
 ### Задание 5
@@ -58,7 +58,7 @@ name = input('ФИО: ').split()
 print('Инициалы: ', name[0][0],name[1][0],name[2][0],'.', sep='')
 print('Длина (символов):',len(name[0])+len(name[1])+len(name[2])+2)
 ```
-![](images/lab01/im05.png)
+![](images/lab01/img05.png)
 
 
 
